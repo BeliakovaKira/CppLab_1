@@ -21,6 +21,7 @@ int main() {
     int n;
     cout << "Введите число n (не менее двух знаков): ";
     cin >> n;
-    cout << sumLastNums(n);
+    cout << "Результат: " << sumLastNums(n);
     return 0;
+
 }
