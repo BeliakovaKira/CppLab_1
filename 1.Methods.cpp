@@ -26,6 +26,7 @@ int sumLastNums(int x) {
 
     int lastDig = num % 10;
     int preLastDig = (num / 10) % 10;
+    cout << "Сумма двух последних знаков: ";
     return lastDig + preLastDig;
 }
 
@@ -33,9 +34,8 @@ int main() {
     int n;
     cout << "Введите число n (не менее двух знаков): ";
     cin >> n;
-    cout << "Сумма двух последних знаков: " << sumLastNums(n);
+    cout << sumLastNums(n);
     return 0;
 
 }
-
 
