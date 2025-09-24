@@ -33,8 +33,9 @@ int main() {
     int n;
     cout << "Введите число n (не менее двух знаков): ";
     cin >> n;
-    cout << "Результат: " << sumLastNums(n);
+    cout << "Сумма двух последних знаков: " << sumLastNums(n);
     return 0;
 
 }
+
 
